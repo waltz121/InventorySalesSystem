@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - View", "1 - View", "{59
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorySales.Presentation", "InventorySales.Presentation\InventorySales.Presentation.csproj", "{32CF801E-69CC-466B-8503-5CA96631FBF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorySalesMVC", "InventorySalesMVC\InventorySalesMVC.csproj", "{08A35DA2-BC09-4AA2-91B6-F776E52B1DA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{32CF801E-69CC-466B-8503-5CA96631FBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32CF801E-69CC-466B-8503-5CA96631FBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32CF801E-69CC-466B-8503-5CA96631FBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A35DA2-BC09-4AA2-91B6-F776E52B1DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A35DA2-BC09-4AA2-91B6-F776E52B1DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A35DA2-BC09-4AA2-91B6-F776E52B1DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A35DA2-BC09-4AA2-91B6-F776E52B1DA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{FE036808-DB68-4483-8FB9-92227D468D8F} = {9459041E-5EED-441E-92BD-2A87A9980FED}
 		{E3B357A2-5298-4E1C-8323-90ACE74364D6} = {3938AECC-410F-4DE0-B00F-FB5E49EEE9DE}
 		{32CF801E-69CC-466B-8503-5CA96631FBF1} = {4CD8EA4C-838D-4031-B732-474DAC29BF84}
+		{08A35DA2-BC09-4AA2-91B6-F776E52B1DA0} = {5998C7F9-7968-4941-ABE1-19C3933193E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {891F5D6C-27E0-4F14-9B1A-A16C172B9E6C}
