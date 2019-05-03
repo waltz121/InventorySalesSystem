@@ -1,0 +1,20 @@
+﻿@model IEnumerable<InventorySales.Common.Sales>
+
+
+<h2>Index</h2>
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>ID</th>
+        <th>DateOfSale</th>
+        <th>TotalAmountOfSale</th>
+    </tr>
+    @foreach (var d in Model)
+    {
+        <tr>
+            <td>@d.Sales_ID</td>
+            <td>@d.Date_of_Sale</td>
+            <td>@d.Total_Amount_of_Sale</td>
+        </tr>
+    }
+</table>

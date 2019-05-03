@@ -19,7 +19,7 @@ namespace InventorySales.Presentation
             DataReader = new SalesServiceReader();
         }
 
-        public void RefreshPeople()
+        public void RefreshSales()
         {
             Sales = DataReader.GetSales();
         }
