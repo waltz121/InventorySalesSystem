@@ -143,6 +143,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\bootstrap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -186,7 +187,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -209,6 +209,10 @@
     <ProjectReference Include="..\InventorySales.Presentation\InventorySales.Presentation.csproj">
       <Project>{32cf801e-69cc-466b-8503-5ca96631fbf1}</Project>
       <Name>InventorySales.Presentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventorySalesReader.Service\InventorySalesReader.Service.csproj">
+      <Project>{e3b357a2-5298-4e1c-8323-90ace74364d6}</Project>
+      <Name>InventorySalesReader.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

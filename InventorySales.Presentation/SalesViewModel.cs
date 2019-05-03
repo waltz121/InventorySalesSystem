@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 using InventorySales.Common;
+using InventorySales.Common.Interfaces;
 using InventorySalesReader.Service;
 
 namespace InventorySales.Presentation
 {
     public class SalesViewModel
     {
-        protected SalesServiceReader DataReader;
+        protected ISalesReader DataReader;
 
         private IEnumerable<Sales> _sales;
 
         public IEnumerable<Sales> Sales;
 
-        public SalesViewModel()
+        public SalesViewModel(ISalesReader dataReader)
         {
-            DataReader = new SalesServiceReader();
+            DataReader = dataReader;
         }
 
         public void RefreshSales()

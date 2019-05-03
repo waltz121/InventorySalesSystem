@@ -1,4 +1,5 @@
 ﻿using InventorySales.Common;
+using InventorySales.Common.Interfaces;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace InventorySalesReader.Service
 {
-    public class SalesServiceReader
+    public class SalesServiceReader: ISalesReader
     {
         WebClient client = new WebClient();
         string baseUri = "http://localhost:9874/api/Sales";
