@@ -7,7 +7,7 @@ using System.Text;
 
 namespace InventorySalesReader.Service
 {
-    class SalesServiceReader
+    public class SalesServiceReader
     {
         WebClient client = new WebClient();
         string baseUri = "http://localhost:9874/api/Sales";
