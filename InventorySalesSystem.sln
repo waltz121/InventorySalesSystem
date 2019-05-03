@@ -19,8 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventorySales.Services", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventorySalesReader.Service", "InventorySalesReader.Service\InventorySalesReader.Service.csproj", "{E3B357A2-5298-4E1C-8323-90ACE74364D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorySalesMVC.Presentation", "InventorySalesMVC.Presentation\InventorySalesMVC.Presentation.csproj", "{F9B3CFD0-6805-4AED-A56A-811CD789819B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - View", "1 - View", "{5998C7F9-7968-4941-ABE1-19C3933193E7}"
 EndProject
 Global
@@ -41,10 +39,6 @@ Global
 		{E3B357A2-5298-4E1C-8323-90ACE74364D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3B357A2-5298-4E1C-8323-90ACE74364D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3B357A2-5298-4E1C-8323-90ACE74364D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9B3CFD0-6805-4AED-A56A-811CD789819B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9B3CFD0-6805-4AED-A56A-811CD789819B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9B3CFD0-6805-4AED-A56A-811CD789819B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9B3CFD0-6805-4AED-A56A-811CD789819B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,7 +47,6 @@ Global
 		{23078646-36D7-4434-8511-2E03CE7600A8} = {5086176D-854C-41F4-823C-6945ACBB025C}
 		{FE036808-DB68-4483-8FB9-92227D468D8F} = {9459041E-5EED-441E-92BD-2A87A9980FED}
 		{E3B357A2-5298-4E1C-8323-90ACE74364D6} = {3938AECC-410F-4DE0-B00F-FB5E49EEE9DE}
-		{F9B3CFD0-6805-4AED-A56A-811CD789819B} = {4CD8EA4C-838D-4031-B732-474DAC29BF84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {891F5D6C-27E0-4F14-9B1A-A16C172B9E6C}
