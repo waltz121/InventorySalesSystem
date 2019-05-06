@@ -11,8 +11,6 @@ namespace InventorySales.Presentation
     {
         protected ISalesReader DataReader;
 
-        private IEnumerable<Sales> _sales;
-
         public IEnumerable<Sales> Sales;
 
         public SalesViewModel(ISalesReader dataReader)

@@ -1,5 +1,6 @@
 ﻿using InventorySales.Presentation;
 using InventorySalesReader.Service;
+using InventorySalesSQLReader.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,17 @@ namespace InventorySalesMVC.Models
         public static SalesViewModel _viewModel;
         public static void ComposeObjects()
         {
+
+            //---------------- Data Access Layer ------------------//
+            //For Sql DataAccess DB
+            var sqlReader = new SalesSQLServiceReader();
+            
+            //For Static DataAccess DB
             var reader = new SalesServiceReader();
-            var viewModel = new SalesViewModel(reader);
+
+            //---------------- Presentation Layer ----------------//
+
+            var viewModel = new SalesViewModel(sqlReader);
             _viewModel = viewModel;
         }
     }

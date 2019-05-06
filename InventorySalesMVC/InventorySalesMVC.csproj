@@ -42,6 +42,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -213,6 +219,10 @@
     <ProjectReference Include="..\InventorySalesReader.Service\InventorySalesReader.Service.csproj">
       <Project>{e3b357a2-5298-4e1c-8323-90ace74364d6}</Project>
       <Name>InventorySalesReader.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventorySalesSQLReader.Service\InventorySalesSQLReader.Service.csproj">
+      <Project>{c63c2d17-c9ee-47b5-baff-e06b80a22ae8}</Project>
+      <Name>InventorySalesSQLReader.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
